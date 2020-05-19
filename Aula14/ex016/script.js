@@ -25,7 +25,7 @@ function contador() {
                 res.innerHTML += `${cont}`
             }
         }
-        res.innerHTML += ''
+        
     }
         
 
