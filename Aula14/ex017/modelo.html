@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>Hora de Dia</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
         <div>
-            Test
+            <p>Número:
+                <input type="number" name="valor" id="valor">
+                <input type="button" value="Gerar tabuada" onclick="tabuada()">
+            </p>
         </div>
         <div>
-            Olá
+            <Select name="tabuada" id="seltab" size="10">
+                <option>Digite um número acima</option>
+            </Select>
         </div>
     </section>
     <footer>
